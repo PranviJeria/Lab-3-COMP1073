@@ -11,5 +11,7 @@ blue.addEventListener("input",updateBackgroundColor);
 
 //function to update background color
 function updateBackgroundColor(){
-
+let r = red.value;
+let g = green.value;
+let b = blue.value;
 }
