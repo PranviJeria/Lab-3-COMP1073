@@ -8,3 +8,8 @@ const body = document.body;
 red.addEventListener("input",updateBackgroundColor);
 green.addEventListener("input",updateBackgroundColor);
 blue.addEventListener("input",updateBackgroundColor);
+
+//function to update background color
+function updateBackgroundColor(){
+
+}
