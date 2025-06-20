@@ -1,3 +1,4 @@
+window.addEventListener("DOMContentLoaded", function () {
 //get slider elements and body
 const red= document.getElementById('red');
 const green= document.getElementById('green');
@@ -14,4 +15,11 @@ function updateBackgroundColor(){
 let r = red.value;
 let g = green.value;
 let b = blue.value;
+
+//contruct rgb color string
+let rgbColor = `rgb(${r}, ${g}, ${b})`;
+
+//set body background color
+body.style.backgroundColor = rgbColor;
 }
+});
